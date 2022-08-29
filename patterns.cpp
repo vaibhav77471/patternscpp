@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-/*
+
 //program of half tringle
 int main(){
     int n;
@@ -14,8 +14,8 @@ int main(){
     }
     return 0;
 
-}*/
-/*
+}
+
 int main(){
     int n;
     cout<<"enter no. of rows : ";
@@ -30,8 +30,8 @@ int main(){
         cout<<endl;
     }
     return 0;
-}*/
-/*
+}
+
 //program of pyramid
 int main(){
     int n;
@@ -51,7 +51,7 @@ int main(){
 
     }
     return 0;
-}*/
+}
 
 int main(){
     int n;
@@ -67,7 +67,7 @@ int main(){
     }
     return 0;
 }
-/*
+
 int main(){
     int n;
     cout<<"enter no. of rows to print squar : ";
@@ -81,4 +81,4 @@ int main(){
         cout<<endl;
     }
     return 0;
-}*/
+}
