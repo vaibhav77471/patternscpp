@@ -1,2 +1,2 @@
 # patternscpp
-here you will different types of pattern using cpp.
+Here you will see different types of pattern using cpp.
