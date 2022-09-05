@@ -1,2 +1,2 @@
-# patternscpp
-Here you will see different types of pattern using cpp.
+# Patterns.cpp
+Here you will see different types of patterns using cpp.
