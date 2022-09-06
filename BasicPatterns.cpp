@@ -12,6 +12,7 @@ void pattern8();
 void pattern9();
 void pattern10();
 void pattern11();
+void pattern12();
 
 
 
@@ -181,6 +182,29 @@ void pattern5(){
     
 }
 
+void pattern12(){
+    int n;
+    cout<<"enter no. of rows to print squar : ";
+    cin>>n;
+    int count=1;
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+            if(count<10)
+            {
+            cout<<count<<"  ";
+            count++;
+            }
+            else
+            {
+                cout<<count<<" ";
+                count++;
+            }
+        }
+        cout<<endl;
+    }
+   
+}
+
 int main(){
     int n;
     
@@ -236,6 +260,10 @@ int main(){
             }
         case 11:{
             pattern11();
+            break;
+        }
+        case 12: {
+            pattern12();
             break;
         }
         default:
