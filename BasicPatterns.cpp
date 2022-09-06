@@ -13,6 +13,8 @@ void pattern9();
 void pattern10();
 void pattern11();
 void pattern12();
+void pattern13();
+void pattern14();
 
 
 
@@ -205,10 +207,46 @@ void pattern12(){
    
 }
 
+void pattern13(){
+    int n;
+    cout<<" Enter the value of rows : ";
+    cin>>n;
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=i; j++){
+            int sum= i+j;
+            if(sum % 2 == 0){
+                cout<<"1 ";
+            }
+            else{
+                cout<<"0 ";
+            }
+           
+        }
+        cout<<endl;
+    }
+}
+  
+void pattern14(){
+    int n;
+    cout<<"Enter the value of rows : ";
+    cin>>n;
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=n; j++){
+            if(i==1 || j==1 || i ==n || j==n){
+                cout<<"*";
+            }
+            else{
+                cout<<" ";
+            }
+        }
+        cout<<endl;
+    }
+}
+
+
 int main(){
     int n;
-    
-    cout<<"Select patterns from 1 to 11: ";
+    cout<<"Select patterns from 1 to 14 : ";
     cin>>n;
     
     switch(n)
@@ -266,6 +304,15 @@ int main(){
             pattern12();
             break;
         }
+        case 13:{
+            pattern13();
+            break;
+        }
+        case 14:{
+            pattern14();
+            break;
+        }
+            
         default:
             {
                 cout<<"Invalid Option Selected";
